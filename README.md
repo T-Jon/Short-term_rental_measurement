@@ -1,17 +1,18 @@
 # Property Scraper
 
-This Python script automates the process of scraping property listings from a specified webpage using Selenium and BeautifulSoup. 
-It's designed to navigate through the listings, extract selected relevant information, and save the data to a CSV file for further analysis.
-This Python script is built to lightly interact and gather details from a popular hotel and short-term rental platform. 
-Programmatically running this script will be flagged by the site as bot activity as a violation of site usage outlined in the robot.txt use guidelines.
+This project introduces a Python-based automation tool developed to enhance data collection processes for short-term rental analysis. Leveraging the capabilities of Selenium and BeautifulSoup, the script is meticulously engineered to navigate and extract crucial information from property listings on a renowned hotel and short-term rental platform. It systematically captures selected data points, facilitating their aggregation into a CSV file for comprehensive analysis. This initiative not only serves to augment previously acquired data from AirDNA, enriching insights for my short-term rental venture initiated over a year ago, but also marks a pivotal step in my career transition towards data analytics.
+
+Embarking on this project was driven by a dual-purpose objective: to practically apply and deepen my Python programming skills and to derive actionable insights to optimize the performance of my rental property. It's noteworthy that while the script operates efficiently to simulate user interactions on the target website, it respects ethical considerations and compliance with digital conduct, acknowledging potential limitations posed by the site's robots.txt guidelines.
+
+As my inaugural Python project, it reflects a rigorous learning journey and my commitment to leveraging technology for data-driven decision-making. Through this endeavor, I aim to showcase my growing proficiency in coding and data analytics, aspiring to contribute meaningfully in a professional setting.
 
 ## Background
 
 ### Areas of Focus
-- Location: Sandpoint, ID
-- Website (link to robot.txt file): [Expidia.com](https://www.expedia.com/robots.txt)
-- Accommodation Filters: 2 people, Flexible nights stay between 2-3 nights
-- Includes: Property Titles, Hot Tub status, Property Type, Property Details like quantity of beds, Guest Satisfaction scores, List Price, Taxes & Fees, Etc.
+- **Location:** Sandpoint, ID
+- **Website (link to robot.txt file):** [Expidia.com](https://www.expedia.com/robots.txt)
+- **Accommodation Filters:** 2 people, Flexible nights stay between 2-3 nights
+- **Includes:** Property Titles, Hot Tub status, Property Type, Property Details like quantity of beds, Guest Satisfaction scores, List Price, Taxes & Fees, Etc.
 
 ## Setup Instructions
 

@@ -3,14 +3,14 @@
 This Python script automates the process of scraping property listings from a specified webpage using Selenium and BeautifulSoup. 
 It's designed to navigate through the listings, extract selected relevant information, and save the data to a CSV file for further analysis.
 This Python script is built to lightly interact and gather details from a popular hotel and short-term rental platform. 
-Programatically running this script will be flagged by the site as bot activity as a violation of site usage outlined in the robot.txt use guidelines.
+Programmatically running this script will be flagged by the site as bot activity as a violation of site usage outlined in the robot.txt use guidelines.
 
 ## Background
 
-###Areas of Focus
+### Areas of Focus
 - Location: Sandpoint, ID
-- Website: Expidia.com (https://www.expedia.com/robots.txt)
-- Accomodation Filters: 2 people, Flexible nights stay between 2-3 nights
+- Website (link to robot.txt file): [Expidia.com](https://www.expedia.com/robots.txt)
+- Accommodation Filters: 2 people, Flexible nights stay between 2-3 nights
 - Includes: Property Titles, Hot Tub status, Property Type, Property Details like quantity of beds, Guest Satisfaction scores, List Price, Taxes & Fees, Etc.
 
 ## Setup Instructions

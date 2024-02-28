@@ -5,10 +5,10 @@ It's designed to navigate through the listings, extract relevant information, an
 
 ## Background
 **Areas of Focus**
-Location: Sandpoint, ID
-Website: Expidia.com
-Accomodation Filters: 2 people, Flexible nights stay between 2-3 nights
-Includes Guest Satisfaction scores
+- Location: Sandpoint, ID
+- Website: Expidia.com
+- Accomodation Filters: 2 people, Flexible nights stay between 2-3 nights
+- Includes Guest Satisfaction scores
 
 ## Setup Instructions
 ### WebDriver Setup

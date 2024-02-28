@@ -22,7 +22,7 @@ Make sure you have a WebDriver for your browser of choice installed and correctl
 After downloading, extract the executable and place it in a known location on your system. This PATH must be entered where noted in the script.
 
 ### Running the Script
-1. Open the PropertyScraper.py file with your favorite text editor.
+1. Open the ExPropertyScraper.py file with your favorite text editor.
 2. Modify the base_url, driver_path, start_date, and end_date variables in the __main__ section to fit your scraping needs.
 3. Save your changes and close the editor.
 4. Run the script from your terminal:
@@ -34,11 +34,18 @@ Once completed, the extracted data will be saved in a CSV file in the same direc
 
 ## Configuration Options, considerations and limitations
 - Base URL, Driver PATH, and Date ranges are adjustable. Please refer to "Running the Script."
+- Setting up the WebDriver is built to accommodate various approaches. At this time it is "basic" (aka only in Incognito mode) but can be altered further.
+  - Other driver options available:
+    - Can be run headless. With sub-options to control window size, & disable GPU.
+      - At this time it will run non-headless so as to allow the user to monitor the functionality visually. 
+    - Can be set to adjust or simply log Device User Agent string.
+    - Can be set to disable webpage extensions.
+    - Can be set to not run in Sandbox environment.   
 - Other aspects or area of focus can be manually changed through the aspects in the Base URL.
-- Data collection horizon is 6 months time. This is due to how the site is able to present data but also due to expected accurate data horizons.
+- Data collection horizon is 6 months. This is due to how the site is able to present data but also due to expected accurate data horizons.
 - This project is a work in progress:
-  - Engaging with the "Show More" button functions intermittenly at this time.
-    - This is currently limiting results to 100 rows of data.
+  - Engaging with the "Show More" button functions intermittently at this time.
+    - This is currently limiting results to 100 rows of data. Area of focus is a small market and so this has not been too inhibitive. 
     - Theory: I believe this is due to how the script uses the "Smart Scroll" functionality and how the script engages with the page before the button can become "clickable"
 
 

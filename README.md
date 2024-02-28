@@ -1,4 +1,4 @@
-# Property Scraper
+# Short-Term Rental Property Scraper
 
 This project introduces a Python-based automation tool developed to enhance data collection processes for short-term rental analysis. Leveraging the capabilities of Selenium and BeautifulSoup, the script is meticulously engineered to navigate and extract crucial information from property listings on a renowned hotel and short-term rental platform. It systematically captures selected data points, facilitating their aggregation into a CSV file for comprehensive analysis. This initiative not only serves to augment previously acquired data from AirDNA, enriching insights for my short-term rental venture initiated over a year ago, but also marks a pivotal step in my career transition towards data analytics.
 
@@ -31,6 +31,12 @@ python ExPropertyScraper.py
 
 The script will start, navigate to the specified URL, and begin the scraping process. 
 Once completed, the extracted data will be saved in a CSV file in the same directory as the script.
+
+## Configuration Options, considerations and limitations
+- Base URL, Driver PATH, and Date ranges are adjustable. Please refer to "Running the Script."
+- Data collection horizon is 6 months time.
+- Work in progress: Engaging with the "Show More" button functions intermittenly at this time. This is currently limiting results to 100 rows of data. This is due to how the script uses the "Smart Scroll" functionality and how the script engages with the page. I am currently investigating this further to 
+
 
 ### Prerequisites
 

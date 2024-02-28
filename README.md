@@ -1,20 +1,24 @@
 # Property Scraper
 
 This Python script automates the process of scraping property listings from a specified webpage using Selenium and BeautifulSoup. 
-It's designed to navigate through the listings, extract relevant information, and save the data to a CSV file for further analysis.
+It's designed to navigate through the listings, extract selected relevant information, and save the data to a CSV file for further analysis.
+This Python script is built to lightly interact and gather details from a popular hotel and short-term rental platform. 
+Programatically running this script will be flagged by the site as bot activity as a violation of site usage outlined in the robot.txt use guidelines.
 
 ## Background
-**Areas of Focus**
+
+###Areas of Focus
 - Location: Sandpoint, ID
-- Website: Expidia.com
+- Website: Expidia.com (https://www.expedia.com/robots.txt)
 - Accomodation Filters: 2 people, Flexible nights stay between 2-3 nights
-- Includes Guest Satisfaction scores
+- Includes: Property Titles, Hot Tub status, Property Type, Property Details like quantity of beds, Guest Satisfaction scores, List Price, Taxes & Fees, Etc.
 
 ## Setup Instructions
+
 ### WebDriver Setup
 This script uses Selenium, which requires a WebDriver to interface with the chosen browser. 
-Make sure you have the WebDriver for your browser of choice installed and correctly placed.
-After downloading, extract the executable and place it in a known location on your system.
+Make sure you have a WebDriver for your browser of choice installed and correctly placed.
+After downloading, extract the executable and place it in a known location on your system. This PATH must be entered where noted in the script.
 
 ### Running the Script
 1. Open the PropertyScraper.py file with your favorite text editor.
@@ -43,3 +47,6 @@ pip install -r requirements.txt
 ```
 
 ### License
+
+This project is open source and available under the MIT License.
+

@@ -320,7 +320,7 @@ class PropertyScraper:
             if not df.empty:
                 df = df[(df != 'N/A').any(axis=1)]
                 timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-                filename = f"expedia_hotels_data_{timestamp}.csv"
+                filename = f"EX_hotels_data_{timestamp}.csv"
                 df.to_csv(filename, index=False)
                 logging.info(f"Data saved to {filename}")
             else:
@@ -332,7 +332,7 @@ class PropertyScraper:
 
 if __name__ == "__main__":
     base_url = (
-        "https://www.expedia.com/Hotel-Search?"
+        "https://www.{travel_site_base_URL}.com/Hotel-Search?"
         "adults=2&"
         "destination=Sandpoint%2C%20Idaho%2C%20United%20States%20of%20America&"
         "flexibility=2_DAY_LOWER&"

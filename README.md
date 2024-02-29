@@ -10,7 +10,7 @@ As my inaugural Python project, it reflects a rigorous learning journey and my c
 
 ## Areas of Focus
 - **Location:** Sandpoint, ID
-- **Website (link to robot.txt file):** [Expidia.com](https://www.expedia.com/robots.txt)
+- **Website:** Masked for privacy. Popular Travel search site.
 - **Accommodation Filters:** 2 people, Flexible nights stay between 2-3 nights
 - **Includes:** Property Titles, Hot Tub status, Property Type, Property Details like quantity of beds, Guest Satisfaction scores, List Price, Taxes & Fees, Etc.
 
